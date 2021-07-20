@@ -1,0 +1,34 @@
+{
+    "status": "active",
+    "network_type": "testnet",
+    "chain_name": "Juno",
+    "chain_id": "lucina",
+    "bech32_prefix": "juno",
+    "daemon_name": "junod",
+    "node_home": "$HOME/.juno",
+    "genesis": {
+        "genesis_url": "https://github.com/CosmosContracts/testnets/blob/main/lucina/genesis.json",
+        "genesis_zipped": false
+    },
+    "codebase": {
+        "git_repo": "https://github.com/CosmosContracts/Juno",
+        "git_version": "v0",
+        "binaries": {
+            "linux/amd64": ""
+        }
+    },
+    "peers": {
+        "seeds": [
+            "",
+            ""
+        ],
+        "persistent_peers": [
+            "",
+            ""
+        ]
+    },
+    "apis": {
+        "rpc_addrs": [],
+        "rest_addrs": []
+    }
+}
