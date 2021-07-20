@@ -1,1 +1,1 @@
-# juno-validator-akash
+# juno-on-akash
